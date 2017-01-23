@@ -20,8 +20,23 @@
             width: 100%;
         }
 
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        #mc_embed_signup .button {
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+            font-size:20px;
+            padding:10px 20px;
+            height:52px;
+        }
+
+        #mc_embed_signup input.email {
+            height:52px;
+            outline:0;
+            border:0;
+            border-bottom:2px #888 dashed;
+            text-align:center;
+            font-size:20px;
+        }
     </style>
 
 </head>
@@ -219,7 +234,7 @@
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
+                <div class="panel panel-default padded">
                     <h3 class="text-center">Sign up for updates</h3>
                     <div class="panel-body">
                         <div id="mc_embed_signup">
@@ -229,7 +244,7 @@
                                 <div id="mc_embed_signup_scroll">
 
                                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-                                           placeholder="email address" required>
+                                           placeholder="ahamilton@treasury.gov" required>
                                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
                                             type="text"
@@ -269,7 +284,7 @@
                 <hr/>
                 <div class="row">
                     <div class="col-md-3">
-                        <i class="fa fa-5x fa-bullseye"></i>
+                        <i class="fa fa-5x fa-thumbs-up"></i>
                     </div>
                     <div class="col-md-9">
                         <h3>Dates aren't free, but you can help</h3>
@@ -281,13 +296,12 @@
                 <hr/>
                 <div class="row">
                     <div class="col-md-3">
-                        <i class="fa fa-5x fa-bullseye"></i>
+                        <i class="fa fa-5x fa-question"></i>
                     </div>
                     <div class="col-md-9">
-                        <h3>Dates aren't free, but you can help</h3>
-                        <h5>Sponsorship opportunities start at just $10.</h5>
-                        <p>Click below to learn more about what a sponsor receives.</p>
-                        <a href="#" class="btn btn-info">Sponsor a date</a>
+                        <h3>Ask a question</h3>
+                        <h5>Curious about what we're doing?  Ask us!</h5>
+                        <a href="#" class="btn btn-default">Ask us a question</a>
                     </div>
                 </div>
             </div>

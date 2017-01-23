@@ -32,7 +32,6 @@
 .background-sketch {
   background: url("/static/img/bg.png");
   background-repeat: repeat;
-  min-height: 500px;
 }
 .navbar-default .navbar-nav > li > a {
   font-size: 24px;
@@ -55,6 +54,10 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+}
+.padded {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 footer {
   background-color: #333;
