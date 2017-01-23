@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.background-blue {
+  background-color: #64BCD8;
+  width: 100%;
+  min-height: 500px;
+}
+.background-light-blue {
+  background-color: #ebeff2;
+}
+.background-battleship {
+  background-color: #2d384a;
+}
+.jumbotron {
+  background: transparent !important;
+  color: #fff;
+}
+.navbar-default {
+  background: transparent !important;
+  border-bottom: 0;
+}
+.btn-outline {
+  border: 2px solid #222;
+}
+.btn-inverse {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-inverse:hover {
+  background-color: #fff;
+  color: #64BCD8;
+}
+.background-sketch {
+  background: url("/static/img/bg.png");
+  background-repeat: repeat;
+  min-height: 500px;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 24px;
+  color: #fff;
+}
+.gold {
+  color: gold;
+}
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.inverted {
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+}
+.background-texture {
+  background: url("/static/img/seigaiha.png");
+  background-repeat: repeat;
+}
